@@ -21,7 +21,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Spacecraft'
+                $ref: 'https://raw.githubusercontent.com/nishatsayyed/24th-july-stage/main/test.json'
         404:
           description: No spacecraft found for the provided `spacecraftId`
           content:
